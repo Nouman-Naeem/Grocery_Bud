@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Grocery Bud</title>
+</head>
+
+<body class="bg-[#F1F5F8]">
+    <section class=" flex justify-center items-center min-h-screen">
+        <div class="bg-white min-w-[600px]  p-2 shadow-md min-h-[230px] rounded-lg">
+            <div id="feedback" class="text-center hidden"></div>
+            <h1 class=" text-4xl font-bold text-center p-8 mb-2">Grocery Bud</h1>
+            <div class="flex m-6 ">
+                <input type="text" placeholder="e.g. eggs" id="input_field"
+                    class="flex-grow p-2 rounded-l-md border bg-[#F1F5F8] focus:ring-black">
+                <button type="submit" id="submit_btn"
+                    class="bg-[#49A6E9] rounded-r-md p-3 hover:text-white hover:bg-[#3288c5]">
+                    Submit</button>
+            </div>
+            <div>
+                <ul id="parent_list" class="p-2 m-6 ">
+                    <li id="list_items" class="">
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="../JS/main.js"></script>
+
+</body>
+
+</html>
